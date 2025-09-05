@@ -1,0 +1,16 @@
+# Global
+.DS_Store
+.vscode/
+.idea/
+
+# Backend (Symfony)
+api/vendor/
+api/var/
+api/.env.local
+api/.env.*.local
+api/public/uploads/
+!api/public/uploads/.gitkeep
+
+# Frontend (Vite/React)
+web/node_modules/
+web/dist/
